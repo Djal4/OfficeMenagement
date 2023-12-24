@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OfficeAdministrationTool.Helpers\OfficeAdministrationTool.Helpers.csproj" />
+    <ProjectReference Include="..\OfficeAdministrationTool.InterfacesBL\OfficeAdministrationTool.InterfacesBL.csproj" />
+    <ProjectReference Include="..\OfficeAdministrationTool.InterfacesDAL\OfficeAdministrationTool.InterfacesDAL.csproj" />
+    <ProjectReference Include="..\OfficeAdministrationTool.Models\OfficeAdministrationTool.Models.csproj" />
+    <ProjectReference Include="..\OfficeAdministrationTool.Services\OfficeAdministrationTool.Services.csproj" />
+  </ItemGroup>
+
+</Project>

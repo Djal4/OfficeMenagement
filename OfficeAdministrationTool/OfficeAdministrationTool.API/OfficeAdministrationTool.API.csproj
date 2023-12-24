@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OfficeAdministrationTool.Helpers\OfficeAdministrationTool.Helpers.csproj" />
+    <ProjectReference Include="..\OfficeAdministrationTool.ImplementationsBL\OfficeAdministrationTool.ImplementationsBL.csproj" />
+    <ProjectReference Include="..\OfficeAdministrationTool.ImplementationsDAL\OfficeAdministrationTool.ImplementationsDAL.csproj" />
+    <ProjectReference Include="..\OfficeAdministrationTool.InterfacesBL\OfficeAdministrationTool.InterfacesBL.csproj" />
+    <ProjectReference Include="..\OfficeAdministrationTool.InterfacesDAL\OfficeAdministrationTool.InterfacesDAL.csproj" />
+    <ProjectReference Include="..\OfficeAdministrationTool.Models\OfficeAdministrationTool.Models.csproj" />
+    <ProjectReference Include="..\OfficeAdministrationTool.Services\OfficeAdministrationTool.Services.csproj" />
+  </ItemGroup>
+
+</Project>
